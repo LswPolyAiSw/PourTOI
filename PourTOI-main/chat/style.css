@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(225, 207, 193);
+  margin-top: 20px;
+}
+
+/* ConTainer 전체를 감싸는 화면 */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.card {
+  background: rgb(225, 207, 193);
+  transition: 0.5s;
+  border: 0;
+  margin-bottom: 30px;
+  border-radius: 0.55rem;
+  position: relative;
+  height: 880px;
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+.chat {
+  margin-left: 30%;
+  position: absolute;
+  border-left: 1px solid #eaeaea;
+  width: 70%;
+}
+
+.chat-history {
+  background-color: rgb(24, 61, 24);
+  padding: 20px;
+  overflow-y: auto;
+  height: 800px;
+  width: 100%;
+  max-height: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.clearfix.user-message {
+  text-align: right;
+}
+
+.user-message .message-inner {
+  /* background-color: #0080ff;/ */
+  background-color: rgb(223, 27, 125);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 15px;
+  max-width: 70%;
+  position: relative;
+
+  text-align: left;
+
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.other-message .message-inner {
+  background-color: #e5e5ea;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px 15px;
+  max-width: 70%;
+  position: relative;
+  text-align: right;
+}
+
+.chat-message {
+  padding: 20px;
+}
+
+.chat-message input {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.chat-message .input-group-append button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.hashtag-list {
+  max-width: 29%;
+
+  box-sizing: border-box;
+
+  word-wrap: break-word;
+
+  text-decoration: none;
+
+  color: black impr !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hashtag-block {
+  display: inline-block;
+  /* background-color: #598fc5;/ */
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.profile {
+  background-color: rgb(24, 61, 24);
+  width: 28%;
+  height: 30%;
+  padding-top: 5%;
+  border-radius: 40px;
+  margin: 10px;
+  text-align: center;
+}
+
+#user {
+  font-size: 150px;
+  color: #e5e5ea;
+  text-align: center;
+  position: relative;
+  /* right: 45px; */
+}
+
+#hashtag-list {
+}
+
+.rounded-button {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: rgb(223, 27, 125);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.rounded-button:hover {
+  background-color: #185339;
+}
